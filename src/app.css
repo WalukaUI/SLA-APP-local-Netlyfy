@@ -1,0 +1,11 @@
+
+body{
+    background-image: url(./Images&Vedios/bk.jpg);
+}
+.videoTag{
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
