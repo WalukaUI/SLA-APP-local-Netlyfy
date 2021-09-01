@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import "./BecomeAmember.css";
-import axios from "axios";
+// import axios from "axios";
 
 function BecomeAmem() {
   const [member, setMember] = useState(null);
@@ -12,17 +12,17 @@ function BecomeAmem() {
     e.preventDefault();
     console.log(member);
     setNewMembwrForm(!newMemberForm);
-    const newPerson = {
-      firstname: member.firstname,
-      lastname: member.lastname,
-      username: member.username,
-      streetandcity: member.streetandcity,
-      state: member.state,
-      zip: member.zip,
-      email: member.email,
-      contactnumber: member.contactnumber
-    };
-    axios.post("/create", newPerson);
+    // const newPerson = {
+    //   firstname: member.firstname,
+    //   lastname: member.lastname,
+    //   username: member.username,
+    //   streetandcity: member.streetandcity,
+    //   state: member.state,
+    //   zip: member.zip,
+    //   email: member.email,
+    //   contactnumber: member.contactnumber
+    // };
+    // axios.post("/create", newPerson);
   }
 
   function handleChangeData(e) {

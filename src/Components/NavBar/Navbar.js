@@ -2,13 +2,9 @@ import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Navbar.css";
-import BecomeAmem from "../BecomeAmemberForm/BecomeAmember";
+
 
 function Nav2({ newMemberForm, setNewMembwrForm }) {
-  function popUpForm(e) {
-    e.preventDefault();
-    setNewMembwrForm(!newMemberForm);
-  }
 
   return (
     <>

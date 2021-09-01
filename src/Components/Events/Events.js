@@ -11,7 +11,7 @@ function Events() {
               <img
                 className="card-img"
                 src="./img/1.jpg"
-                alt="Card image cap"
+                alt="Cardimagecap"
               />
             </div>
             <div className="card-body">
@@ -40,7 +40,7 @@ function Events() {
               <img
                 className="card-img"
                 src="./img/3.jpg"
-                alt="Card image cap"
+                alt="Cardimagecap"
               />
             </div>
             <div className="card-body">
@@ -58,7 +58,7 @@ function Events() {
               <img
                 className="card-img"
                 src="https://picsum.photos/450/250"
-                alt="Card image cap"
+                alt="Cardimagecap"
               />
             </div>
             <div className="card-body">

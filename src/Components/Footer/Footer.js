@@ -10,16 +10,16 @@ function Footer() {
           </div>
 
           <div>
-            <a href="https://www.facebook.com/slamidwestusa/" target="_blank" className="me-4 text-reset">
+            <a href="https://www.facebook.com/slamidwestusa/" target="_blank" className="me-4 text-reset" rel="noreferrer" >
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="https://twitter.com/" className="me-4 text-reset">
+            <a href="https://twitter.com/" className="me-4 text-reset" target="_blank"  rel="noreferrer" >
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="https://mail.google.com/" className="me-4 text-reset">
+            <a href="https://mail.google.com/" className="me-4 text-reset" target="_blank"  rel="noreferrer" >
               <i className="fab fa-google"></i>
             </a>
-            <a href="https://www.instagram.com/" className="me-4 text-reset">
+            <a href="https://www.instagram.com/" className="me-4 text-reset" target="_blank"  rel="noreferrer" >
               <i className="fab fa-instagram"></i>
             </a>
           </div>
