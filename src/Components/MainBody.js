@@ -1,19 +1,17 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Redirect,
-  Switch,
-} from "react-router-dom";
+import {BrowserRouter as Router,Route,Redirect,Switch,} from "react-router-dom";
 import "./main.css";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Carosel from "./Carousel/Carousel";
 import Navbar from "./NavBar/Navbar";
-import Events from "./Events/Events";
+import SideBar from "./SideBar/SideBar";
 import flag from "../Images&Vedios/flag.mp4";
 import Footer from "./Footer/Footer";
 import BecomeAmem from "./BecomeAmemberForm/BecomeAmember";
+import Members from "./Members/Members";
+import History from "./History/History"
+import Events from "./Events/Events"
 
 function MainBody() {
   return (
@@ -25,23 +23,17 @@ function MainBody() {
         <Navbar />
         <div className="row">
           <div className=" col-xl-4 col-md-4  mainDiv1">
-            <Events />
+            <SideBar />
           </div>
           <div className=" col-xl-8 col-md-8 mainDiv2">
             <Switch>
-              <Route path="/" exact>
-                <Carosel />
-              </Route>
-              <Route path="/about" exact>
-                <About />
-              </Route>
-              <Route path="/events" exact></Route>
-              <Route path="/create" exact>
-                <BecomeAmem />
-              </Route>
-              <Route path="/contact" exact>
-                <Contact />
-              </Route>
+              <Route path="/" exact><Carosel /></Route>
+              <Route path="/about" exact><About /></Route>
+              <Route path="/events" exact><Events /></Route>
+              <Route path="/history" exact><History /></Route>
+              <Route path="/members" exact><Members /></Route>
+              <Route path="/create" exact><BecomeAmem /></Route>
+              <Route path="/contact" exact><Contact /></Route>
               <Redirect to="/" />
             </Switch>
           </div>

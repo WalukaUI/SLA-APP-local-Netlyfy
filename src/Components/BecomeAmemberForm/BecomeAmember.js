@@ -1,27 +1,28 @@
 import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import "./BecomeAmember.css";
-
+import axios from "axios";
 
 function BecomeAmem() {
   const [member, setMember] = useState(null);
   const [newMemberForm, setNewMembwrForm] = useState(true);
 
-
+ // "proxy": "https://secure-beyond-80547.herokuapp.com",
   function createNewMember(e) {
     e.preventDefault();
+    console.log(member);
     setNewMembwrForm(!newMemberForm);
-    // const newPerson = {
-    //   firstname: member.firstname,
-    //   lastname: member.lastname,
-    //   username: member.username,
-    //   streetandcity: member.streetandcity,
-    //   state: member.state,
-    //   zip: member.zip,
-    //   email: member.email,
-    //   contactnumber: member.contactnumber
-    // };
-    // axios.post("http://localhost:3001/create", newPerson);
+    const newPerson = {
+      firstname: member.firstname,
+      lastname: member.lastname,
+      username: member.username,
+      streetandcity: member.streetandcity,
+      state: member.state,
+      zip: member.zip,
+      email: member.email,
+      contactnumber: member.contactnumber
+    };
+    axios.post("/create", newPerson);
   }
 
   function handleChangeData(e) {
@@ -32,7 +33,7 @@ function BecomeAmem() {
 
   return newMemberForm ? (
     <>
-      <div>
+      <div className="form_outer">
         <div className="popup-inner">
           <div className="formDiv div1">
             <form onSubmit={createNewMember}>
@@ -64,32 +65,6 @@ function BecomeAmem() {
                       onChange={handleChangeData}
                     />
                     <div className="valid-feedback">Looks good!</div>
-                  </div>
-                  <div className="col-md-4 mb-3">
-                    <label>Username</label>
-                    <div className="input-group">
-                      <div className="input-group-prepend">
-                        <span
-                          className="input-group-text"
-                          id="inputGroupPrepend"
-                        >
-                          @
-                        </span>
-                      </div>
-                      <input
-                        type="text"
-                        name="username"
-                        className="form-control"
-                        id="validationCustomUsername"
-                        placeholder="Username"
-                        aria-describedby="inputGroupPrepend"
-                        required
-                        onChange={handleChangeData}
-                      />
-                      <div className="invalid-feedback">
-                        Please choose a username.
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="form-row">

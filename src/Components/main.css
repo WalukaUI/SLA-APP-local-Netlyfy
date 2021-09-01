@@ -1,3 +1,6 @@
 .row{
     width:100%;
 }
+.mainDiv2{
+    display: flex;
+}

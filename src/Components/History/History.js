@@ -1,19 +1,18 @@
 import React from 'react'
 import { Nav } from "react-bootstrap";
-import "./Contact.css"
-const Contact = () => {
+import "./History.css"
+const History = () => {
   return (
-    <div className="contact_outer">
-    <section className="about-us py-5 aboutcontainer" id="about-us">
+    <div className="historyOuter">
+    <section className="about-us py-4 aboutcontainer" id="about-us">
     <div className="container mt-5">
 	<div className="row">
 		<div className="col-md-6">
-		    <h1 className='text-success'>Contact </h1>
+		    <h1 className='text-success'>History</h1>
 		    <h2>SLA Midwest</h2>
 		    <hr/>
-		    <h5><b>E-Mail :</b>  slausmw@gmail.com</h5>
-		    <p><b>TP :</b> + 01 636 328 9352 (Mr.Tharindu)</p>
-        <p><b>Address :</b> SLA Association St Louies, MO, USA.</p>
+			<h5>SLA is The Second Oldest Sri Lankan Association in the United States.</h5>
+		    <h6>Prof Rex Fernando was out founding President </h6>
         <hr/>
         <Nav.Link href="/members">
                 <button className="btn btn-warning">Members</button>
@@ -28,4 +27,4 @@ const Contact = () => {
 </div>
   )
 }
-export default Contact;
+export default History;

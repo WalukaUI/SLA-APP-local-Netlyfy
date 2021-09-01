@@ -2,9 +2,13 @@ import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Navbar.css";
+import BecomeAmem from "../BecomeAmemberForm/BecomeAmember";
 
 function Nav2({ newMemberForm, setNewMembwrForm }) {
-
+  function popUpForm(e) {
+    e.preventDefault();
+    setNewMembwrForm(!newMemberForm);
+  }
 
   return (
     <>
@@ -37,13 +41,13 @@ function Nav2({ newMemberForm, setNewMembwrForm }) {
                   id="collasible-nav-dropdown"
                   menuVariant="dark"
                 >
-                  <NavDropdown.Item href="#action/3.1">
+                  <NavDropdown.Item href="/gallery">
                     Photo Gallery
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
+                  <NavDropdown.Item href="/members">
                     committee Members
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
+                  <NavDropdown.Item href="/history">
                     History
                   </NavDropdown.Item>
                   <NavDropdown.Divider />

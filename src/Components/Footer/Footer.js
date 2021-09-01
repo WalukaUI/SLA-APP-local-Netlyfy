@@ -10,16 +10,16 @@ function Footer() {
           </div>
 
           <div>
-            <a href="https://www.facebook.com/slamidwestusa/" target="_blank" rel="noreferrer" className="me-4 text-reset">
+            <a href="https://www.facebook.com/slamidwestusa/" target="_blank" className="me-4 text-reset">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="!#" className="me-4 text-reset">
+            <a href="https://twitter.com/" className="me-4 text-reset">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="!#" className="me-4 text-reset">
+            <a href="https://mail.google.com/" className="me-4 text-reset">
               <i className="fab fa-google"></i>
             </a>
-            <a href="!#" className="me-4 text-reset">
+            <a href="https://www.instagram.com/" className="me-4 text-reset">
               <i className="fab fa-instagram"></i>
             </a>
           </div>
@@ -38,39 +38,10 @@ function Footer() {
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Services</h6>
+                <h6 className="text-uppercase fw-bold mb-4">USEFUL LINKS</h6>
                 <p>
-                  <a href="#!" className="text-reset">
-                    Link1
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Link2
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Link3
-                  </a>
-                </p>
-              </div>
-
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Link1
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Link2
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Link3
+                  <a href="https://www.facebook.com/slamidwestusa/" className="text-reset">
+                    Social Media
                   </a>
                 </p>
               </div>
