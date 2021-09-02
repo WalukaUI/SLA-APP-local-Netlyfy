@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import "./Carousel.css";
 
 function Carosel() {

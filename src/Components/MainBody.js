@@ -21,7 +21,7 @@ function MainBody() {
       </video>
       <Router>
         <Navbar />
-        <div className="row">
+        <div className="row mainRow">
           <div className=" col-xl-4 col-md-4  mainDiv1">
             <SideBar />
           </div>
