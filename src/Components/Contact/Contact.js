@@ -12,7 +12,7 @@ const Contact = () => {
 		    <h2>SLA Midwest</h2>
 		    <hr/>
 		    <h5><b>E-Mail :</b>  slausmw@gmail.com</h5>
-		    <p><b>TP :</b> + 01 636 328 9352 (Mr.Tharindu)</p>
+		    {/* <p><b>TP :</b> </p> */}
         <p><b>Address :</b> SLA Association St Louies, MO, USA.</p>
         <hr/>
         <Nav.Link href="/members">
