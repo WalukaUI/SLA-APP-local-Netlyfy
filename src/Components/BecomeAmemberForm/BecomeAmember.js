@@ -36,7 +36,12 @@ function BecomeAmem() {
       <div className="form_outer">
         <div className="popup-inner">
           <div className="formDiv div1">
-            <form onSubmit={createNewMember}>
+          <h3>This page is under construction.</h3>
+            <p> Please come back soon!</p>
+          <Nav.Link href="/" className=" btn btn-danger formCancelBtn">
+              Close
+            </Nav.Link>
+            {/* <form onSubmit={createNewMember}>
               <h4>Become a New Member of SLA</h4>
               <div className="form-group row">
                 <div className="form-row">
@@ -160,7 +165,7 @@ function BecomeAmem() {
                   </div>
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

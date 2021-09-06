@@ -22,9 +22,6 @@ function MainBody() {
       <Router>
         <Navbar />
         <div className="row mainRow">
-          <div className=" col-xl-4 col-md-4  mainDiv1">
-            <SideBar />
-          </div>
           <div className=" col-xl-8 col-md-8 mainDiv2">
             <Switch>
               <Route path="/" exact><Carosel /></Route>
@@ -36,6 +33,9 @@ function MainBody() {
               <Route path="/contact" exact><Contact /></Route>
               <Redirect to="/" />
             </Switch>
+          </div>
+          <div className=" col-xl-4 col-md-4  mainDiv1">
+            <SideBar />
           </div>
         </div>
       </Router>

@@ -9,8 +9,7 @@
 .cardChild {
   width: 100%;
   opacity: 0.8;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-top: 15px;
   padding-right: 10px;
 }
 .cardImage{
@@ -21,5 +20,9 @@
   .cardDiv{
       margin-left: 2%;
       text-align: center;
+      
   } 
+  .cardChild{
+    margin-left: 20px;
+  }
 }

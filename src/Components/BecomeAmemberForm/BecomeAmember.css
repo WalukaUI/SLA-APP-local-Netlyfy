@@ -24,6 +24,7 @@
 .formCancelBtn {
   width: 80px;
   margin-top: 3px;
+  margin-left: 40%;
 }
 .submitBtn {
   margin-top: 3px;
@@ -53,4 +54,8 @@
       margin-left: 20px;
       padding-top: 10px;
   } 
+}
+.formDiv{
+  height: 100%;
+  text-align: center;
 }
