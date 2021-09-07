@@ -36,7 +36,6 @@ function Nav2({ newMemberForm, setNewMembwrForm }) {
                   <NavDropdown
                     title="More"
                     id="collasible-nav-dropdown"
-                    menuVariant="dark"
                   >
                     <NavDropdown.Item href="/gallery">
                       Photo Gallery

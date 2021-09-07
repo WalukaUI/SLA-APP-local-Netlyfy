@@ -4,14 +4,14 @@ import "./BecomeAmember.css";
 // import axios from "axios";
 
 function BecomeAmem() {
-  const [member, setMember] = useState(null);
+  // const [member, setMember] = useState(null);
   const [newMemberForm, setNewMembwrForm] = useState(true);
 
  // "proxy": "https://secure-beyond-80547.herokuapp.com",
-  function createNewMember(e) {
-    e.preventDefault();
-    console.log(member);
-    setNewMembwrForm(!newMemberForm);
+  // function createNewMember(e) {
+  //   e.preventDefault();
+  //   console.log(member);
+  //   setNewMembwrForm(!newMemberForm);
     // const newPerson = {
     //   firstname: member.firstname,
     //   lastname: member.lastname,
@@ -23,13 +23,13 @@ function BecomeAmem() {
     //   contactnumber: member.contactnumber
     // };
     // axios.post("/create", newPerson);
-  }
+  //}
 
-  function handleChangeData(e) {
-    e.preventDefault();
-    let newData = { ...member, [e.target.name]: e.target.value };
-    setMember(newData);
-  }
+  // function handleChangeData(e) {
+  //   e.preventDefault();
+  //   let newData = { ...member, [e.target.name]: e.target.value };
+  //   setMember(newData);
+  // }
 
   return newMemberForm ? (
     <>

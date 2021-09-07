@@ -11,7 +11,7 @@ function Carosel() {
               <h5 className="carasolevent">Upcoming event</h5>
             <h3> 2021 Greentree Festival</h3>
             <h5>September 17, 18, 19 – 2021</h5>
-            <p>We will continue our tradition of hosting a booth....<a href="/contact">More...</a></p>
+            <p>We will continue our tradition of hosting a booth....<a href="/events">More...</a></p>
               <a href=" https://www.kirkwoodmo.org/recreation/greentree-festival">Visit Greentree festival website</a>
           </Carousel.Caption>
         </Carousel.Item>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./SideBar.css";
 
@@ -7,7 +7,7 @@ function SideBar() {
   return (
     <>
       <div className="cardDiv">
-        <Card bg="light" className="cardChild">
+        <Card bg="light" className="cardChild" >
           <Card.Body>
             <Card.Title>Ongoing events </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
@@ -31,7 +31,6 @@ function SideBar() {
             <Card.Text></Card.Text>
             <a href="!#">more information will be available soon...</a>
             <hr />
-            {/* <img className="cardImage" src="../img/1.jpg" alt="img"/> */}
             <Card.Link href="/contact">
               Contact us for More Information
             </Card.Link>

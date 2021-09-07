@@ -1,4 +1,5 @@
 import React from "react"
+import "./Footer.css"
 
 function Footer() {
   return (
@@ -29,8 +30,8 @@ function Footer() {
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3"></i>SRI LANKA ASSOCIATION
+                <h6 className="text-uppercase fw-bold mb-4 footerTopics">
+                  <i className="fas fa-gem me-3 "></i>SRI LANKA ASSOCIATION
                 </h6>
                 <p>
                    The Second Oldest Sri Lankan Association in the United States.
@@ -38,7 +39,7 @@ function Footer() {
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">USEFUL LINKS</h6>
+                <h6 className="text-uppercase fw-bold mb-4 footerTopics">USEFUL LINKS</h6>
                 <p>
                   <a href="https://www.facebook.com/slamidwestusa/" className="text-reset">
                     Social Media
@@ -47,7 +48,7 @@ function Footer() {
               </div>
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                <h6 className="text-uppercase fw-bold mb-4 footerTopics">Contact</h6>
                 <p>
                   <i className="fas fa-home me-3"></i> SLA Association St Louies, MO, USA.
                 </p>
