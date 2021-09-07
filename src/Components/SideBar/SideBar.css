@@ -1,28 +1,28 @@
 .cardDiv {
-  opacity: 0.9;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  color: black;
+  
 }
 .cardChild {
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   margin-top: 15px;
-  padding-right: 10px;
+  padding: 10px;
 }
-.cardImage{
-    width: 100px;
-    margin-right: 10px;
-}
+
 @media only screen and (max-width: 767px) {
   .cardDiv{
-      margin-left: 2%;
+      margin-left: 3%;
       text-align: center;
       
   } 
-  .cardChild{
-    margin-left: 20px;
-  }
+}
+@media only screen and (max-width: 576px) {
+  .cardDiv{
+      margin-left: 0;
+      text-align: center; 
+  } 
 }

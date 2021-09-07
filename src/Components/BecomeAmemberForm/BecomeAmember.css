@@ -39,7 +39,7 @@
   width: 20%;
 }
 
-.form_outer{
+.form_outer {
   margin-top: 10px;
   opacity: 0.9;
   background-color: rgb(221, 221, 238);
@@ -50,12 +50,19 @@
   justify-content: space-evenly;
 }
 @media only screen and (max-width: 767px) {
-  .form_outer{
-      margin-left: 20px;
-      padding-top: 10px;
-  } 
+  .form_outer {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 }
-.formDiv{
+.formDiv {
   height: 100%;
   text-align: center;
+}
+@media only screen and (max-width: 576px) {
+  .form_outer {
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
