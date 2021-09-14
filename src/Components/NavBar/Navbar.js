@@ -41,7 +41,7 @@ function Nav2({ newMemberForm, setNewMembwrForm }) {
                       Photo Gallery
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/members">
-                      committee Members
+                      Committee Members
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/history">History</NavDropdown.Item>
                     <NavDropdown.Divider />

@@ -17,7 +17,7 @@ const Members = () => {
         <p>Mihiri De Silva (Treasurer)</p>
 		<hr/>
         <Nav.Link href="/about">
-                <button className="btn btn-warning">Contact Us</button>
+                <button className="btn btn-warning">More About Us</button>
         </Nav.Link>
 		</div>
 		<div className="col-md-6">
