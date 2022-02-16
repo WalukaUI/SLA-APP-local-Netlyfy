@@ -22,7 +22,7 @@ function Carosel() {
           />
           <Carousel.Caption className="description">
             <h5 className="carasolevent">Coming Soon...</h5>
-            <h3> Collecting goods for Afghan refugees</h3>
+            <h3>Collecting goods for Afghan refugees</h3>
             <a href="!#">more information will be available soon...</a>
           </Carousel.Caption>
         </Carousel.Item>
