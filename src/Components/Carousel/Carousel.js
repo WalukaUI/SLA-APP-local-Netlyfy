@@ -17,17 +17,9 @@ function Carosel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/2.jpg"
+            src="../img/3.jpg"
             alt="Second slide"
           />
-          <Carousel.Caption className="description">
-            <h5 className="carasolevent">Coming Soon...</h5>
-            <h3>Collecting goods for Afghan refugees</h3>
-            <a href="!#">more information will be available soon...</a>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src="../img/3.jpg" alt="Third slide" />
 
           <Carousel.Caption className="description">
             <h5 className="carasolevent">Ongoing event...</h5>
@@ -39,6 +31,23 @@ function Carosel() {
               className="btn btn-success"
             >
               Go to our GoFundMe Page
+            </a>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="../img/lighthouse.jpg"
+            alt="Third slide"
+          />
+          <Carousel.Caption className="description attributename">
+            Photo by{" "}
+            <a href="https://unsplash.com/@the_bracketeer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Hendrik Cornelissen
+            </a>
+            on{" "}
+            <a href="https://unsplash.com/s/photos/sri-lanka-tourism?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Unsplash
             </a>
           </Carousel.Caption>
         </Carousel.Item>

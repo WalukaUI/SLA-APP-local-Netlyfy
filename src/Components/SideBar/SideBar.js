@@ -7,7 +7,7 @@ function SideBar() {
   return (
     <>
       <div className="cardDiv">
-        <Card bg="light" className="cardChild" >
+        <Card bg="light" className="cardChild">
           <Card.Body>
             <Card.Title>Ongoing events </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
@@ -25,12 +25,7 @@ function SideBar() {
             </a>
 
             <hr />
-            <Card.Subtitle className="mb-2 text-muted">
-              Collecting goods for Afghan refugees
-            </Card.Subtitle>
-            <Card.Text></Card.Text>
-            <a href="!#">more information will be available soon...</a>
-            <hr />
+
             <Card.Link href="/contact">
               Contact us for More Information
             </Card.Link>
