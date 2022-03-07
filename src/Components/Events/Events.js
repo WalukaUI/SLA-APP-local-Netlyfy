@@ -8,7 +8,7 @@ function Events() {
         <div className="card-group vgr-cards">
           <div className="card">
             <div className="card-img-body">
-              <img className="card-img" src="./img/1.jpg" alt="Cardimagecap" />
+              {/* <img className="card-img" src="./img/1.jpg" alt="Cardimagecap" /> */}
             </div>
             <div className="card-body">
               {/* <h4 className="card-title">Upcoming events</h4> */}
@@ -31,11 +31,6 @@ function Events() {
               >
                 Go to our GoFundMe Page
               </a>
-              <hr />
-              <p className="card-text">
-                <b>Collecting goods for Afghan refugees</b>
-              </p>
-              <a href="!#">more information will be available soon...</a>
             </div>
           </div>
 
