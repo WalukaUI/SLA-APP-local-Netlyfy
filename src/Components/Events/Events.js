@@ -8,57 +8,37 @@ function Events() {
         <div className="card-group vgr-cards">
           <div className="card">
             <div className="card-img-body">
-              <img
-                className="card-img"
-                src="./img/1.jpg"
-                alt="Cardimagecap"
-              />
+              <img className="card-img" src="./img/1.jpg" alt="Cardimagecap" />
             </div>
             <div className="card-body">
-              <h4 className="card-title">Upcoming events</h4>
-              <h5>2021 Greentree Festival</h5>
-              <p>September 17, 18, 19 – 2021</p>
-              <p className="card-text maintextfield">
-                We will continue our tradition of hosting a booth. Volunteers
-                are needed to help with the grill, food preparation, and sales.
-                For more information, please contact Tharindu, Udara or SLA
-                executive committee at{" "}
-                <a href="/contact">midwestlsa@gmail.com</a>
-              </p>
-              <p>
-                <a href="https://www.kirkwoodmo.org/recreation/greentree-festival">
-                  Visit Greentree festival website...
-                </a>
-              </p>
+              {/* <h4 className="card-title">Upcoming events</h4> */}
             </div>
           </div>
           <div className="card">
             <div className="card-img-body">
-              <img
-                className="card-img"
-                src="./img/3.jpg"
-                alt="Cardimagecap"
-              />
+              <img className="card-img" src="./img/3.jpg" alt="Cardimagecap" />
             </div>
             <div className="card-body">
               <h4 className="card-title">Ongoing events </h4>
               <p className="card-text">
                 <b> O2 for Sri Lanka initiative </b>
               </p>
-              <a href=" https://www.gofundme.com/f/Sri-Lanka-Covid-Help-ICU-Oxygen?fbclid=IwAR0h9OI1eMIscrYNOMU77obfjoaeUKSqYpGg0cU6MPYXYsTVKShIWLpWuEc" target="blank" rel="blank"className="btn btn-outline-success">
-              Go to our GoFundMe Page
+              <a
+                href=" https://www.gofundme.com/f/Sri-Lanka-Covid-Help-ICU-Oxygen?fbclid=IwAR0h9OI1eMIscrYNOMU77obfjoaeUKSqYpGg0cU6MPYXYsTVKShIWLpWuEc"
+                target="blank"
+                rel="blank"
+                className="btn btn-outline-success"
+              >
+                Go to our GoFundMe Page
               </a>
               <hr />
               <p className="card-text">
                 <b>Collecting goods for Afghan refugees</b>
               </p>
-              <a href="!#">
-            more information will be available soon...
-              </a>
+              <a href="!#">more information will be available soon...</a>
             </div>
-            
           </div>
-          
+
           <div className="card">
             <div className="card-img-body">
               <img
