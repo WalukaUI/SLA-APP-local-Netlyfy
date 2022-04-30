@@ -96,7 +96,7 @@ function Footer() {
         </section>
 
         <div className="text-center p-4">
-          © 2021 Copyright :
+          © 2021
           <a className="text-reset fw-bold" href="!#">
             SLA
           </a>
