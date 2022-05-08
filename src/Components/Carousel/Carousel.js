@@ -9,7 +9,7 @@ function Carosel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/fundraiserhealth3.jpg"
+            src="../img/fundraiserhealth.jpg"
             alt="slcovid19"
           />
 
