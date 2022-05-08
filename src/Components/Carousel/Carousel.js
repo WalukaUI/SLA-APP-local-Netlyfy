@@ -7,17 +7,17 @@ function Carosel() {
     <div className="carousel">
       <Carousel fade>
         <Carousel.Item>
-          <img className="d-block w-100" src="../img/flag5.jpg" alt="flag" />
-          <Carousel.Caption className="description"></Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src="../img/3.jpg" alt="slcovid19" />
+          <img
+            className="d-block w-100"
+            src="../img/fundraiserhealth3.jpg"
+            alt="slcovid19"
+          />
 
           <Carousel.Caption className="description">
             <h5 className="carasolevent">Ongoing event...</h5>
-            <h3> O2 for Sri Lanka initiative</h3>
+            <h3> #MedicalHelpSriLanka</h3>
             <a
-              href=" https://www.gofundme.com/f/Sri-Lanka-Covid-Help-ICU-Oxygen?fbclid=IwAR0h9OI1eMIscrYNOMU77obfjoaeUKSqYpGg0cU6MPYXYsTVKShIWLpWuEc"
+              href="https://www.gofundme.com/f/MedicalHelpSriLanka?qid=c0b1aadeec64b6f83b785f91356fa06c&fbclid=IwAR34hG_rNLLE95TWhZ_nAHgvB20BPQyXcmrG009oIRUF-eY0wWenZ2LBmaI"
               target="blank"
               rel="blank"
               className="btn btn-success"

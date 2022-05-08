@@ -11,12 +11,12 @@ function SideBar() {
           <Card.Body>
             <Card.Title>Ongoing events </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
-              O2 for Sri Lanka initiative
+              #MedicalHelpSriLanka
             </Card.Subtitle>
             <Card.Text></Card.Text>
 
             <a
-              href=" https://www.gofundme.com/f/Sri-Lanka-Covid-Help-ICU-Oxygen?fbclid=IwAR0h9OI1eMIscrYNOMU77obfjoaeUKSqYpGg0cU6MPYXYsTVKShIWLpWuEc"
+              href="https://www.gofundme.com/f/MedicalHelpSriLanka?qid=c0b1aadeec64b6f83b785f91356fa06c&fbclid=IwAR34hG_rNLLE95TWhZ_nAHgvB20BPQyXcmrG009oIRUF-eY0wWenZ2LBmaI"
               target="blank"
               rel="blank"
               className="btn btn-outline-success"
@@ -43,6 +43,24 @@ function SideBar() {
               faces as well.
             </Card.Text>
             <Card.Link href="#">More...</Card.Link>
+            <hr />
+            <Card.Subtitle className="mb-2 text-muted">
+              O2 for Sri Lanka initiative
+            </Card.Subtitle>
+            <Card.Text></Card.Text>
+            <a
+              href=" https://www.gofundme.com/f/Sri-Lanka-Covid-Help-ICU-Oxygen?fbclid=IwAR0h9OI1eMIscrYNOMU77obfjoaeUKSqYpGg0cU6MPYXYsTVKShIWLpWuEc"
+              target="blank"
+              rel="blank"
+              className="btn btn-outline-success"
+            >
+              Go to our GoFundMe Page
+            </a>
+            <br />
+            <br />
+            <Card.Link href="/contact">
+              Contact us for More Information
+            </Card.Link>
           </Card.Body>
         </Card>
       </div>
