@@ -21,7 +21,7 @@ const Members = () => {
               </Nav.Link>
             </div>
             <div className="col-md-6">
-              <img src="/img/logo.jpg" alt="" />
+              <img src="/img/logo.jpg" alt="logo" style={{ width: "60%" }} />
             </div>
           </div>
         </div>

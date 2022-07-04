@@ -18,7 +18,7 @@ function Nav2({ newMemberForm, setNewMembwrForm }) {
             <div>
               <Navbar.Brand href="/" className="org_name">
                 <img
-                  src="../img/logo.jpg"
+                  src="../img/oldLogo.jpg"
                   alt="SLA Logo"
                   className="logoImageNav2"
                 />
@@ -33,10 +33,7 @@ function Nav2({ newMemberForm, setNewMembwrForm }) {
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
 
-                  <NavDropdown
-                    title="More"
-                    id="collasible-nav-dropdown"
-                  >
+                  <NavDropdown title="More" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="/gallery">
                       Photo Gallery
                     </NavDropdown.Item>
