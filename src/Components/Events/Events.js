@@ -23,7 +23,7 @@ function Events() {
             <div className="card-body">
               <h4 className="card-title">Upcoming events </h4>
               <p className="card-text">
-                <b></b>
+                <a href="/contact">Contact us for More Information</a>
               </p>
 
             </div>
@@ -39,7 +39,7 @@ function Events() {
             <div className="card-body">
               <h4 className="card-title">Ongoing events </h4>
               <p className="card-text">
-                <b></b>
+              <a href="/contact">Contact us for More Information</a>
               </p>
 
             </div>
@@ -57,10 +57,12 @@ function Events() {
             <div className="card-body">
               <h4 className="card-title">Recent events </h4>
               <p className="card-text">
-                <b> New Year Celebration 2024 </b>
+                <b>New Year Celebration 2024 </b>
               </p>
               <p className="card-text">
                 SLA Annual General Meeting and Sri Lankan New Year Celebration 2024.
+                The festival was held on Saturday 20th of April 2024, from 10.30 am to 3pm with Traditional 
+                SL New Year food, games, and performances.
               </p>
             </div>
           </div>

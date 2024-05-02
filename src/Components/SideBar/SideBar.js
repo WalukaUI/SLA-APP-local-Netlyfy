@@ -19,6 +19,8 @@ function SideBar() {
               Contact us for More Information
             </Card.Link>
           </Card.Body>
+          </Card>
+          <Card bg="light" className="cardChild">
           <Card.Body>
             <Card.Title>Ongoing events </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
@@ -48,6 +50,8 @@ function SideBar() {
             </Card.Subtitle>
             <Card.Text>
             SLA Annual General Meeting and Sri Lankan New Year Celebration 2024.
+                The festival was held on Saturday 20th of April 2024, from 10.30 am to 3pm with Traditional 
+                SL New Year food, games, and performances.
             </Card.Text>
             <Card.Link href="#">More...</Card.Link>
             <hr />
