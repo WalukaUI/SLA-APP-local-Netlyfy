@@ -9,12 +9,12 @@ const Members = () => {
           <div className="row">
             <div className="col-md-6">
               <h1 className="text-success">Members</h1>
-              <h2>SLA Midwest Executive Committee 2021</h2>
+              <h2>SLA Midwest Executive Committee (2023-2025)</h2>
               <hr />
-              <p>Ravin Kodikara (President)</p>
-              <p>Lakshan Piyasinghe (Vice President)</p>
-              <p>Ayusha Amarakone (Secretary)</p>
-              <p>Mihiri De Silva (Treasurer)</p>
+              <p>Ayusha Amarakone (President)</p>
+              <p>Ann Dissanayake (Vice President)</p>
+              <p>Shihani Sharmila (Secretary)</p>
+              <p>hamara Jayasundara (Treasurer)</p>
               <hr />
               <Nav.Link href="/about">
                 <button className="btn btn-warning">More About Us</button>
