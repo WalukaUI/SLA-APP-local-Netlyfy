@@ -13,13 +13,13 @@ function Events() {
             </div>
           </div>
           <div className="card">
-            <div className="card-img-body">
+            {/* <div className="card-img-body">
               <img
                 className="card-img"
                 src="./img/fundraiserhealth.jpg"
                 alt="Cardimagecap"
               />
-            </div>
+            </div> */}
             <div className="card-body">
               <h4 className="card-title">Upcoming events </h4>
               <p className="card-text">
@@ -29,13 +29,13 @@ function Events() {
             </div>
           </div>
           <div className="card">
-            <div className="card-img-body">
+            {/* <div className="card-img-body">
               <img
                 className="card-img"
                 src="./img/fundraiserhealth.jpg"
                 alt="Cardimagecap"
               />
-            </div>
+            </div> */}
             <div className="card-body">
               <h4 className="card-title">Ongoing events </h4>
               <p className="card-text">
@@ -49,7 +49,7 @@ function Events() {
             <div className="card-img-body">
               <img
                 className="card-img"
-                src="https://picsum.photos/450/250"
+                src="./img/newyear2024.jpg"
                 alt="Cardimagecap"
               />
             </div>
