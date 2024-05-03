@@ -32,7 +32,7 @@ function Nav2({ newMemberForm, setNewMembwrForm }) {
                 <Nav className="me-auto">
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
-                  <Nav.Link href="/events">Projects</Nav.Link>
+                  <Nav.Link href="/projects">Projects</Nav.Link>
 
                   <NavDropdown title="More" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="/gallery">

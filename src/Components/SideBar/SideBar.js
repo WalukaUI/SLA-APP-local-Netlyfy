@@ -16,16 +16,16 @@ function SideBar() {
             <Card.Text>
               #MedicalHelpSriLanka
             </Card.Text>
-            <br/>
               <p>Supplied Immediate medical supplies for national Hospitals in Sri Lanka</p>
+              <br/>
             <Card.Subtitle className="mb-2 text-muted">
               2020-2021
             </Card.Subtitle>
             <Card.Text>
               #O2
             </Card.Text>
-            <br/>
               <p></p>
+              <br/>
             <hr />
             <Card.Link href="/projects">
               Contact us for More Information
