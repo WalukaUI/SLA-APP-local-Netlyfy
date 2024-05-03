@@ -9,26 +9,6 @@ function Carosel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="../img/fundraiserhealth.jpg"
-            alt="slcovid19"
-          />
-
-          <Carousel.Caption className="description">
-            <h5 className="carasolevent">Ongoing event...</h5>
-            <h3> #MedicalHelpSriLanka</h3>
-            <a
-              href="https://www.gofundme.com/f/MedicalHelpSriLanka?qid=c0b1aadeec64b6f83b785f91356fa06c&fbclid=IwAR34hG_rNLLE95TWhZ_nAHgvB20BPQyXcmrG009oIRUF-eY0wWenZ2LBmaI"
-              target="blank"
-              rel="blank"
-              className="btn btn-success"
-            >
-              Go to our GoFundMe Page
-            </a>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
             src="../img/lighthouse.jpg"
             alt="lighthouse"
           />
