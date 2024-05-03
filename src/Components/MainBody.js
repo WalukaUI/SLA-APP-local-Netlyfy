@@ -27,6 +27,7 @@ function MainBody() {
               <Route path="/" exact><Carosel /></Route>
               <Route path="/about" exact><About /></Route>
               <Route path="/events" exact><Events /></Route>
+              <Route path="/projects" exact><Events /></Route>
               <Route path="/history" exact><History /></Route>
               <Route path="/members" exact><Members /></Route>
               <Route path="/create" exact><BecomeAmem /></Route>

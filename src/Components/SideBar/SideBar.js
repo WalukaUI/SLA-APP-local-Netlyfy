@@ -8,40 +8,30 @@ function SideBar() {
     <>
       <div className="cardDiv">
         <Card bg="light" className="cardChild">
-        <Card.Body>
-            <Card.Title>Upcoming events </Card.Title>
+          <Card.Body>
+            <Card.Title>Projects </Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
-              {/* #MedicalHelpSriLanka */}
+              2022-2023
             </Card.Subtitle>
-            <Card.Text></Card.Text>
+            <Card.Text>
+              #MedicalHelpSriLanka
+            </Card.Text>
+            <br/>
+              <p>Supplied Immediate medical supplies for national Hospitals in Sri Lanka</p>
+            <Card.Subtitle className="mb-2 text-muted">
+              2020-2021
+            </Card.Subtitle>
+            <Card.Text>
+              #O2
+            </Card.Text>
+            <br/>
+              <p></p>
             <hr />
-            <Card.Link href="/contact">
+            <Card.Link href="/projects">
               Contact us for More Information
             </Card.Link>
           </Card.Body>
           </Card>
-          <Card bg="light" className="cardChild">
-          <Card.Body>
-            <Card.Title>Ongoing events </Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">
-              {/* #MedicalHelpSriLanka */}
-            </Card.Subtitle>
-            <Card.Text></Card.Text>
-
-            {/* <a
-              href="https://www.gofundme.com/"
-              target="blank"
-              rel="blank"
-              className="btn btn-outline-success"
-            >
-              Go to our GoFundMe Page
-            </a> */}
-            <hr />
-            <Card.Link href="/contact">
-              Contact us for More Information
-            </Card.Link>
-          </Card.Body>
-        </Card>
         <Card bg="light" className="cardChild">
           <Card.Body>
             <Card.Title>Recent Events</Card.Title>
@@ -56,7 +46,7 @@ function SideBar() {
             <Card.Link href="#">More...</Card.Link>
             <hr />
             <br />
-            <Card.Link href="/contact">
+            <Card.Link href="/events">
               Contact us for More Information
             </Card.Link>
           </Card.Body>
