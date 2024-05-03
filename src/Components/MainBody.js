@@ -12,6 +12,7 @@ import BecomeAmem from "./BecomeAmemberForm/BecomeAmember";
 import Members from "./Members/Members";
 import History from "./History/History"
 import Events from "./Events/Events"
+import Projects from "./Projects/Projects";
 
 function MainBody() {
   return (
@@ -27,7 +28,7 @@ function MainBody() {
               <Route path="/" exact><Carosel /></Route>
               <Route path="/about" exact><About /></Route>
               <Route path="/events" exact><Events /></Route>
-              <Route path="/projects" exact><Events /></Route>
+              <Route path="/projects" exact><Projects /></Route>
               <Route path="/history" exact><History /></Route>
               <Route path="/members" exact><Members /></Route>
               <Route path="/create" exact><BecomeAmem /></Route>
